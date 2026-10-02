@@ -3,7 +3,7 @@ services:
     name: liliomhaz-cukisagok
     runtime: static
     buildCommand: echo "Liliomház weboldal kész"
-    staticPublishPath: ./public
+    staticPublishPath: ./
     autoDeployTrigger: commit
     headers:
       - path: /*
