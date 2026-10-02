@@ -44,7 +44,7 @@ const observer = new IntersectionObserver(
 
 document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
 
-document.querySelectorAll(".gallery-item").forEach((button) => {
+document.querySelectorAll(".gallery-item, .social-card").forEach((button) => {
   button.addEventListener("click", () => {
     if (!lightbox || !lightboxImage) return;
     lightboxImage.src = button.dataset.full || "";
