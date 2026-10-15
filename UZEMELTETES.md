@@ -7,7 +7,7 @@
 - Technikusi érdeklődési tájékoztató, szakmai galéria, vizsgafelkészülési témák, böngészőn megmaradó saját ellenőrzőlista és nyomtatás.
 - Cukiságok külön rész, régi cukrászképekkel. Megmaradt a korábbi web telefonszáma és címe; ezek a szerkesztőben átírhatók.
 - Az oktatók nevét, portréját és személyes adatait a felhasználó kérésére nem tesszük ki. Nincsenek kitalált képesítések, intézményi akkreditációk vagy tanulói vélemények.
-- 73 galériakép: 58 új JPG és 15 korábbi WEBP. Az eredetiek változatlanok, a képek lustán töltődnek be. Az `a87bdd3d-082e-4d01-b051-f73ca97479c4.jpg` feltöltése sikertelen volt, ez a kép nincs benne. A fotókat nem soroltuk be találomra évfolyamokhoz.
+- Az előkészített teljes galéria 74 kép: 59 új JPG és 15 korábbi WEBP. Az új fotók nyilvános GitHub-közzétételének külön engedélyezéséig az élő oldalon a 15 korábbi kép jelenik meg. Az eredetiek változatlanok, a képek lustán töltődnek be. A korábban hiányzó a87bdd3d fotó is visszakerült. A fotókat nem soroltuk be találomra évfolyamokhoz.
 - Külön `/szerkeszto/` munkatársi felület, e-mail-címhez kötött egyszeri meghívókkal; csak a tulajdonos hívhat meg és tilthat le szerkesztőt. A meghívólinket a tulajdonos továbbítja: nincs automatikus e-mail-küldés.
 - Egyszerű szövegmezők, képkiválasztás, többképes feltöltés, galériabesorolás, sorrend, piszkozat, előnézet, közzététel, korábbi tartalom visszaállítása, audit és mentés.
 - Az érdeklődési űrlap ténylegesen az adatbázisba ment. A szerkesztők a beérkezett megkeresésekből saját e-mail-programjukkal válaszolhatnak. Az üzeneteket 90 nap után törli a rendszer.
@@ -61,3 +61,6 @@ Token ne kerüljön a GitHubra, nyilvános JavaScriptbe vagy a kapcsolat szöveg
 ## Fokozatos Render-indítás
 
 A render-tudastar.yaml csak az új Node szolgáltatást és a külön adatbázist telepíti, a már létező statikus oldal Blueprintjéhez nem nyúl. A fotók nyilvános GitHub-közzététele külön jóváhagyásig függőben van. A seed csak a ténylegesen elérhető képeket veszi fel; a még fel nem töltött képek helyén arculati grafika látszik. Az eredeti 15 nyilvános cukrászkép elérhető. Az új képek későbbi jóváhagyott feltöltése és újratelepítése automatikusan kiegészíti a galériát, a szerkesztett szövegeket nem írja felül.
+
+## Külön oldalak
+A nyilvános web önálló URL-eken működik: `/`, `/szakacs/`, `/cukrasz/`, `/oktatas/`, `/vizsga/`, `/galeria/`, `/kapcsolat/`, `/cukisagok/`, `/hirek/`, `/gyik/`. A közös tartalom továbbra is a szerkesztőben módosítható. A galéria szakma szerinti hivatkozása például `/galeria/?szakma=szakacs`.
