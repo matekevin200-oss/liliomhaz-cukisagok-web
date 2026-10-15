@@ -1,0 +1,189 @@
+{
+  "site": {
+    "name": "Lilliomház Tudástár",
+    "tagline": "Szakirányú oktatás · Cegléd",
+    "description": "Szakács és cukrász szakirányú oktatás Cegléden. Kezdő és végzős csoportok, műhelygaléria és vizsgafelkészülés."
+  },
+  "home": {
+    "eyebrow": "A kíváncsiságból itt lesz szakmai tudás",
+    "title": "A jó szakma kézzel és szívvel kezdődik.",
+    "lead": "Fedezd fel a szakács és a cukrász szakma világát a Lilliomházban. Alapanyagok, technikák, alkotás és tudatos felkészülés – az első biztos mozdulatoktól az önálló munkáig.",
+    "heroImage": "/assets/photos/825258973_1618345966670555_6552675616166744672_n.jpg",
+    "heroAlt": "Többféle elkészített fogás rendezett fa munkapulton.",
+    "introTitle": "Nemcsak recepteket. Szakmát tanulunk.",
+    "intro": "A konyhában és a cukrászműhelyben minden feladat mögött ott van a miért. A cél az, hogy megértsd az alapanyagokat, biztonságosan dolgozz, és egyre önállóbban készíts el egy ételt vagy süteményt.",
+    "steps": [
+      {
+        "title": "Megismered",
+        "text": "Alapanyagok, eszközök és munkafolyamatok érthetően, a gyakorlat felől közelítve."
+      },
+      {
+        "title": "Kipróbálod",
+        "text": "Előkészítés, elkészítés, tálalás. Az ismétlésből fokozatosan magabiztosság lesz."
+      },
+      {
+        "title": "Önállóvá válsz",
+        "text": "Saját munkaszervezés, szakmai döntések és átgondolt felkészülés a zárófeladatokra."
+      }
+    ],
+    "workshopTitle": "Nézd meg, mi kerül ki a műhelyből.",
+    "workshopText": "Valódi ételek, sütemények és munkafolyamatok a feltöltött képekből és a korábbi cukrászgalériából."
+  },
+  "professions": [
+    {
+      "id": "szakacs",
+      "name": "Szakács",
+      "subtitle": "Ízekből, technikából és figyelemből épül fel.",
+      "intro": "A szakácsmunka az előkészítéstől a tálalásig összefüggő folyamat. Az alapok mellé munkaszervezés, alapanyag-ismeret és szakmai igényesség társul.",
+      "image": "/assets/photos/806427402_2053201122230808_4139627680853715724_n.jpg",
+      "imageAlt": "Elkészített főétel színes zöldséges körettel.",
+      "technicianTitle": "Szakács szaktechnikus irány",
+      "technicianText": "A technikusi érdeklődést külön is jelezheted. A pontos képzési utat és belépési feltételeket személyesen egyeztetjük. Az alábbi évfolyambontás az itt bemutatott helyi csoportokat jelöli.",
+      "years": [
+        {
+          "id": "10",
+          "label": "10. évfolyam · Kezdők",
+          "title": "Biztos alapok, az első naptól.",
+          "description": "Eszközhasználat, rendezett munkaterület és alapvető konyhai technológiák. A cél az érthető, követhető munkavégzés.",
+          "topics": [
+            "Konyhai higiénia és munkabiztonság",
+            "Alapanyagok, vágási és előkészítési műveletek",
+            "Alaplevek, levesek, köretek és egyszerű fogások",
+            "Mérés, receptértelmezés és együttműködés"
+          ]
+        },
+        {
+          "id": "11",
+          "label": "11. évfolyam · Végzősök",
+          "title": "Önálló munka, átgondolt felkészülés.",
+          "description": "Összetettebb fogások és tudatos munkaszervezés. Az időbeosztásra, a tálalásra és a saját munka értékelésére is figyelünk.",
+          "topics": [
+            "Összetett ételsorok és technológiák gyakorlása",
+            "Időterv, anyaghányad és eszközlista készítése",
+            "Portfólióhoz szükséges dokumentálás",
+            "Próbafeladatok és szakmai vizsgafelkészülés"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cukrasz",
+      "name": "Cukrász",
+      "subtitle": "A pontosság találkozása az alkotás örömével.",
+      "intro": "Tészták, krémek, sütemények és desszertek: a jó eredményhez az arányok megértése, az alapanyagok ismerete és türelmes gyakorlás is hozzátartozik.",
+      "image": "/assets/photos/817059162_2178724132858880_6176288764077895749_n.jpg",
+      "imageAlt": "Réteges mákos pohárdesszert gyümölcsös díszítéssel.",
+      "technicianTitle": "Cukrász szaktechnikus irány",
+      "technicianText": "A cukrász szaktechnikus iránt érdeklődőknek is segítünk a tájékozódásban. A konkrét képzési lehetőségekről és feltételekről kérj személyes tájékoztatást.",
+      "years": [
+        {
+          "id": "10",
+          "label": "10. évfolyam · Kezdők",
+          "title": "Az első tésztától a biztos mozdulatokig.",
+          "description": "Pontos mérés, alaptészták, krémek és rendezett műhelymunka. Megismered, hogyan működnek az alapvető cukrászati eljárások.",
+          "topics": [
+            "Cukrászati higiénia, eszközök és munkabiztonság",
+            "Alapanyag-ismeret, mérés és receptértelmezés",
+            "Alaptészták és egyszerű krémek gyakorlása",
+            "Formázás, sütés és alapvető díszítés"
+          ]
+        },
+        {
+          "id": "11",
+          "label": "11. évfolyam · Végzősök",
+          "title": "Részletekből lesz kész alkotás.",
+          "description": "Összetett sütemények, desszertek és kidolgozott tálalás. A feladatokat a tervezéstől a befejezésig egyre önállóbban szervezed meg.",
+          "topics": [
+            "Összetett sütemények, torták és desszertek",
+            "Díszítési technikák és egységes megjelenés",
+            "Anyaghányad, munkaterv és portfólió",
+            "Próbafeladatok és szakmai vizsgafelkészülés"
+          ]
+        }
+      ]
+    }
+  ],
+  "teachers": [],
+  "teaching": {
+    "title": "Figyelem a munkára. Figyelem a fejlődésre.",
+    "text": "A gyakorlati oktatásban a bemutatás, a saját munkavégzés és a visszajelzés egymásra épül. Kérdezni ér, újrapróbálni is: a cél az, hogy értsd, amit csinálsz, és önállóan is meg tudd valósítani.",
+    "points": [
+      "Lépésről lépésre bemutatott munkafolyamatok",
+      "Visszajelzés a technikáról és a munkaszervezésről",
+      "Közös gondolkodás a megoldásokról"
+    ],
+    "image": "/assets/photos/634274459_1700895417360121_3684543059963722195_n.jpg",
+    "imageAlt": "Zöldségekkel készülő leves nagy rozsdamentes fazékban.",
+    "secondaryImage": "/assets/photos/eae54e09-a1ad-447b-8ffd-c31c4b15084d.jpg",
+    "secondaryImageAlt": "Frissen sült fánkok hűtőrácson."
+  },
+  "exam": {
+    "title": "A felkészülés is egy jól felépített folyamat.",
+    "intro": "A vizsgára nem egyetlen nap alatt készülünk. Ez a szervező segít áttekinteni, mit érdemes gyakorolni és dokumentálni. A tényleges vizsgafeladatokat és határidőket mindig az oktatóval, illetve az intézménnyel egyeztesd.",
+    "items": [
+      {
+        "title": "Munkaterv",
+        "text": "Feladatok, időrend, alapanyagok és eszközök: először tervezd meg a munkát."
+      },
+      {
+        "title": "Gyakorlati rutin",
+        "text": "Gyakorold az előkészítést, az elkészítést, a higiéniai rendet és a tálalást együtt."
+      },
+      {
+        "title": "Portfólió",
+        "text": "Fotók, munkafolyamatok és saját szakmai reflexiók: folyamatosan dokumentáld a fejlődésedet."
+      },
+      {
+        "title": "Próbafeladat",
+        "text": "Dolgozz időkeretben, majd nézd át, mi ment jól, és min szeretnél még javítani."
+      }
+    ],
+    "checklist": [
+      "Egyeztettem az aktuális követelményeket az oktatóval.",
+      "Elkészítettem az anyaghányadot és a munkatervet.",
+      "Gyakoroltam az elkészítést és a tálalást.",
+      "Rendeztem a portfólióhoz szükséges fotóimat.",
+      "Ellenőriztem az eszközöket és a határidőket."
+    ]
+  },
+  "pastry": {
+    "title": "A Cukiságok története folytatódik.",
+    "text": "A korábbi cukrászoldal kedvencei és fotói a Tudástár részeként is megmaradnak. Süteményekkel vagy alkalmi rendeléssel kapcsolatban az aktuális lehetőségeket telefonon egyeztetheted.",
+    "image": "/erdei-gyumolcs-szelet.webp",
+    "imageAlt": "Gyümölcsös, krémes tortaszeletek."
+  },
+  "faq": [
+    {
+      "question": "Melyik évfolyamhoz tartozó részt nézzem?",
+      "answer": "A bemutatott helyi csoportoknál a 10. évfolyam a kezdőknek, a 11. a végzősöknek szól. Mindkét szakmánál külön lenyitható részt találsz."
+    },
+    {
+      "question": "Hogyan érdeklődhetek az oktatásról?",
+      "answer": "Telefonon, a Facebook-oldalon vagy az érdeklődési űrlapon. Írd meg, melyik szakma és évfolyam érdekel."
+    },
+    {
+      "question": "A technikusi képzésről is kérdezhetek?",
+      "answer": "Igen, az érdeklődésnél külön is jelezheted. A pontos képzési út és a feltételek személyes egyeztetést igényelnek."
+    },
+    {
+      "question": "Mit találok a vizsgafelkészülésnél?",
+      "answer": "Munkatervezési szempontokat, portfólió-ellenőrzőlistát és gyakorlási témákat. A hivatalos követelményeket az intézmény adja meg."
+    },
+    {
+      "question": "Megmaradt a Cukiságok és a régi galéria?",
+      "answer": "Igen. A régi képek a cukrászgalériában is böngészhetők, a Cukiságok pedig saját bemutatkozó részt kapott."
+    }
+  ],
+  "contact": {
+    "title": "Beszéljünk a következő lépésedről.",
+    "text": "Akár most ismerkedsz a szakmákkal, akár már vizsgára készülsz, írd meg, miben segíthetünk. A pontos lehetőségeket és időpontokat személyesen egyeztetjük.",
+    "phone": "+36 20 416 7980",
+    "address": "2700 Cegléd, Liliom utca 15.",
+    "facebook": "https://www.facebook.com/lilomhaz.cukisagok",
+    "inquiryEnabled": true
+  },
+  "privacy": {
+    "title": "Az érdeklődési űrlap adatkezelése",
+    "text": "Az űrlapon megadott nevet, e-mail-címet és üzenetet a Lilliomház Tudástár megkeresések kezelésére jogosult munkatársai látják, kizárólag az érdeklődés megválaszolásához. A rendszer az üzeneteket legfeljebb 90 napig őrzi. Adatkezelési kérésedet a feltüntetett telefonon vagy a Facebook-oldalon jelezheted. A szerkesztő a bejelentkezés fenntartásához munkamenetsütit használ. Facebook-tartalom csak a külön betöltőgomb megnyomásakor töltődik be, ekkor a Meta saját adatkezelése is érvényesül. Az oldal nem használ hirdetési vagy látogatottságmérő követőkódot."
+  }
+}
