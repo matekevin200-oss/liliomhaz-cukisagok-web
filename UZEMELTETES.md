@@ -57,3 +57,7 @@ Token ne kerüljön a GitHubra, nyilvános JavaScriptbe vagy a kapcsolat szöveg
 ## Ellenőrzések
 
 `npm ci`, `npm run check`, `npm test`. A tesztek helyi, valódi PostgreSQL-motort használó PGlite-on ellenőrzik a teljes CMS-munkafolyamatot. Az ideiglenes HTTP-kiszolgáló csak az automatikus API-tesztekben fut. Böngészős vizuális ellenőrzés ebben a környezetben nem történt; élő Meta-szinkron csak az oldal adminisztrátori hozzáférése után ellenőrizhető.
+
+## Fokozatos Render-indítás
+
+A render-tudastar.yaml csak az új Node szolgáltatást és a külön adatbázist telepíti, a már létező statikus oldal Blueprintjéhez nem nyúl. A fotók nyilvános GitHub-közzététele külön jóváhagyásig függőben van. A seed csak a ténylegesen elérhető képeket veszi fel; a még fel nem töltött képek helyén arculati grafika látszik. Az eredeti 15 nyilvános cukrászkép elérhető. Az új képek későbbi jóváhagyott feltöltése és újratelepítése automatikusan kiegészíti a galériát, a szerkesztett szövegeket nem írja felül.

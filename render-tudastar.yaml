@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: lilliomhaz-tudastar
+    runtime: node
+    region: frankfurt
+    plan: free
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 24
+      - key: DATABASE_URL
+        fromDatabase:
+          name: lilliomhaz-tudastar-preview-db
+          property: connectionString
+      - key: BOOTSTRAP_TOKEN
+        generateValue: true
+
+# A free adatbázis 30 napos kipróbáláshoz való.
+# Tartós éles üzem előtt válts fizetős Postgres-csomagra a Dashboardon.
+databases:
+  - name: lilliomhaz-tudastar-preview-db
+    region: frankfurt
+    plan: free
+    ipAllowList: []
